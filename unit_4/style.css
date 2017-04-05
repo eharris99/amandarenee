@@ -1,0 +1,38 @@
+body{
+	text-align: center;
+	background-image: url(images/stylishdesk1.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+h1{
+	font-family: 'Proza Libre', sans-serif;
+	text-shadow: 10px 10px 10px #aaa;
+	font-size: 72px;
+	color: gray;
+}
+
+p{
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 36px;
+	color: gray;
+}
+
+hr{
+	width:	600px;
+}
+
+h3{
+	font-size: 30px;
+	font-family: 'Proza Libre', sans-serif;
+	color: gray;
+	text-decoration: underline;
+}
+
+ul{
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 25px;
+	color: gray;
+	list-style-type: none;	
+}
+

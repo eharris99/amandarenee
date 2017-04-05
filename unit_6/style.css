@@ -1,0 +1,92 @@
+body{
+	text-align: center;
+	background-image: url(images/stylishdesk1.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+header{
+	padding: 20px;
+}
+
+nav {
+	padding: 20px;
+	font-size: 1.8em;
+	text-decoration: none;
+}
+
+aside{
+	padding: 20px;
+}
+ #loremaside {
+ 	font-size: 35px;
+	font-family: 'Proza Libre', sans-serif;
+	color: gray;
+	text-decoration: underline;
+ }
+
+article{
+	padding: 20px;
+}
+
+footer{
+	padding: 20px;
+	font-size: 18px;
+}
+
+h1{
+	font-family: 'Proza Libre', sans-serif;
+	text-shadow: 10px 10px 10px #aaa;
+	font-size: 72px;
+	color: gray;
+}
+
+#two_column {
+	padding: 20px;
+}
+
+#left{
+	padding: 20px;
+	float: left;
+	width: 30%;
+}
+
+#right{
+	padding: 20px;
+	float: right;
+	width: 62%;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: "";
+	clear: both;
+	height: 0;
+}
+
+p{
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 22px;
+	color: gray;
+}
+
+hr{
+	width:	1200px;
+}
+
+#bizoffering{
+	font-size: 35px;
+	font-family: 'Proza Libre', sans-serif;
+	color: gray;
+	text-decoration: underline;
+}
+
+ul{
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 25px;
+	color: gray;
+	list-style-type: none;	
+}
+

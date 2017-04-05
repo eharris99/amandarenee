@@ -1,0 +1,146 @@
+body{
+	text-align: center;
+	background-image: url(images/laptop_tablet.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+
+header{
+	padding: 18px;
+}
+
+nav{
+ 	padding: 10px;
+	font-size: 1.5em;
+	font-family: 'Proza Libre', sans-serif;
+	text-decoration: none;
+	text-transform: uppercase;
+	background-color: #c44dff;
+	color: white;
+	width: 100%;
+	position: absolute;
+	top: 0;
+}
+
+aside{
+	padding: 20px;
+}
+ #services {
+ 	font-size: 35px;
+	font-family: 'Proza Libre', sans-serif;
+	color: white;
+	text-decoration: underline;
+ }
+
+article{
+	padding: 15px;
+}
+
+footer{
+	padding: 20px;
+	font-size: 18px;
+	color: white;
+	font-family: 'Proza Libre', sans-serif;
+}
+
+.wrapper{
+	padding: 150px;
+	font-family: 'Proza Libre', sans-serif;
+	text-shadow: 10px 10px 10px #aaa;
+	text-align: center;
+	font-size: 36px;
+	color: white;
+}
+
+.slogan{
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 40px;
+	color: white;
+}
+
+
+#two_column {
+	padding: 5px;
+}
+
+#left{
+	padding: 40px;
+	float: left;
+	width: 40%;
+}
+
+#right{
+	padding: 40px;
+	float: right;
+	width: 40%;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: "";
+	clear: both;
+	height: 0;
+}
+
+
+hr{
+	width: 100%;
+}
+
+#knowledge{
+	font-size: 35px;
+	font-family: 'Proza Libre', sans-serif;
+	color: white;
+	text-decoration: underline;
+}
+
+ul{
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 25px;
+	color: white;
+	list-style-type: none;	
+}
+
+p{
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 40px;
+	color: white;
+}
+
+h2{
+	font-size: 35px;
+	font-family: 'Proza Libre', sans-serif;
+	color: white;
+}
+
+@media only screen and (max-width: 872px) {
+	h1, nav a {
+		display: block;
+		text-align: center;
+	}
+
+	#right{
+		float: none;
+		width: auto;
+	}
+
+	#left{
+		float: none;
+		width: auto;
+	}
+
+	h1 {
+		font-size: 48px;
+	}
+
+	#services, #knowledge {
+		font-size: 20px;
+		text-align: center;
+		display: block;
+	}
+
+}

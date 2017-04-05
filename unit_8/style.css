@@ -1,0 +1,115 @@
+body{
+	text-align: center;
+	background-image: url(images/stylishdesk1.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+
+header{
+	padding: 18px;
+}
+
+nav a {
+	padding: 10px;
+	font-size: 1.8em;
+	text-decoration: underline;
+}
+
+aside{
+	padding: 20px;
+}
+ #loremaside {
+ 	font-size: 35px;
+	font-family: 'Proza Libre', sans-serif;
+	color: gray;
+	text-decoration: underline;
+ }
+
+article{
+	padding: 15px;
+}
+
+footer{
+	padding: 20px;
+	font-size: 18px;
+}
+
+h1{
+	font-family: 'Proza Libre', sans-serif;
+	text-shadow: 10px 10px 10px #aaa;
+	font-size: 72px;
+	color: gray;
+}
+
+#two_column {
+	padding: 20px;
+}
+
+#left{
+	padding: 40px;
+	float: left;
+	width: 40%;
+}
+
+#right{
+	padding: 40px;
+	float: right;
+	width: 40%;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: "";
+	clear: both;
+	height: 0;
+}
+
+p{
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 25px;
+	color: gray;
+}
+
+hr{
+	width: 100%;
+}
+
+#bizoffering{
+	font-size: 35px;
+	font-family: 'Proza Libre', sans-serif;
+	color: gray;
+	text-decoration: underline;
+}
+
+ul{
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 25px;
+	color: gray;
+	list-style-type: none;	
+}
+
+@media only screen and (max-width: 872px) {
+	h1, nav a {
+		display: block;
+		text-align: center;
+	}
+
+	#right{
+		float: none;
+		width: auto;
+	}
+
+	h1 {
+		font-size: 48px;
+	}
+
+	#bizoffering, #loremaside {
+		font-size: 20px;
+		text-align: center;
+		display: block;
+	}
+
+}
